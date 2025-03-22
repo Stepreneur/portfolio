@@ -42,7 +42,7 @@ import PhpTag from "./Components/phpTag";
         </section>
         <section>
           <div className="mt-[100px] w-full h-[600px] flex justify-center items-center bg-orange-500 relative">
-                <Image className="absolute right-[20px] top-[20px]" src = "/img/link.png" width={35} height={35} onClick={() => goToPage('about')} />
+                <Image alt="loading" className="absolute right-[20px] top-[20px]" src = "/img/link.png" width={35} height={35} onClick={() => goToPage('about')} />
                 <div className="flex flex-row w-max h-max  gap-[200px]">
                     <div className="flex flex-col items-end h-[400px] ml-[70px] gap-[25px] ">
                         <div className="text-4xl font-bold">Classlinker</div>
@@ -61,7 +61,7 @@ import PhpTag from "./Components/phpTag";
                           </div>
                         </div>
                     </div>
-                    <Image src = "" width={400} height={400}/> 
+                    <Image alt = "loading" src = "" width={400} height={400}/> 
               </div>
           </div>
         </section>
@@ -69,22 +69,22 @@ import PhpTag from "./Components/phpTag";
         <div className="text-3xl w-full text-center mt-[90px] font-bold">My Tech stack</div>
           <div className="w-full  justify-center flex flex-col mt-[60px] gap-[20px]">
             <div className=" flex flex-row justify-center gap-[30px]">
-              <Image src = "/img/php.png" width={80} height={70} style={{ objectFit: "contain" }} />
+              <Image alt = "loading"  src = "/img/php.png" width={80} height={70} style={{ objectFit: "contain" }} />
             </div>
             <div className=" flex flex-row justify-center gap-[30px]">
-              <Image src="/img/css.png" width={50} height={1}  style={{ objectFit: "contain" }} />
-              <Image src = "/img/html.png" width={70} height={size} style={{ objectFit: "contain" }} />
+              <Image alt = "loading"  src="/img/css.png" width={50} height={1}  style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/html.png" width={70} height={size} style={{ objectFit: "contain" }} />
             </div>
             <div className=" flex flex-row justify-center gap-[30px]">
-              <Image src = "/img/js.webp" width={70} height={70} style={{ objectFit: "contain" }} />
-              <Image src = "/img/react.png" width={70} height={size} style={{ objectFit: "contain" }} />
-              <Image src = "/img/nextjs.png" width={70} height={70} style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/js.webp" width={70} height={70} style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/react.png" width={70} height={size} style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/nextjs.png" width={70} height={70} style={{ objectFit: "contain" }} />
             </div>
             <div className="flex flex-row gap-[60px] justify-center">
-              <Image src = "/img/git.png" width={70} height={70} style={{ objectFit: "contain" }} />
-              <Image src = "/img/github.png" width={70} height={70} style={{ objectFit: "contain" }} />
-              <Image src = "/img/prisma.png" width={60} height={size} style={{ objectFit: "contain" }} />
-              <Image src = "/img/mysql.png" width={70} height={70} style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/git.png" width={70} height={70} style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/github.png" width={70} height={70} style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/prisma.png" width={60} height={size} style={{ objectFit: "contain" }} />
+              <Image alt = "loading" src = "/img/mysql.png" width={70} height={70} style={{ objectFit: "contain" }} />
             </div>
           </div>
         </section>
